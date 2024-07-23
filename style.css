@@ -1,0 +1,36 @@
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+h4{
+    text-align: center;
+    color:#f3711b !important;
+    font-size: 3rem !important;
+}
+h4>span{
+    color:#3498db;
+}
+table{
+    text-align: center;
+    font-size: 1.2rem;
+}
+th{
+    font-size: 1.5rem;
+    color: aquamarine !important;
+}
+.card{
+    text-align: center;
+}
